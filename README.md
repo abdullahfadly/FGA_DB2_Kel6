@@ -5,7 +5,7 @@
 - Dio Tri Ananda
 
 #### Table of content:
-* [Pendahuluan](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#pendahuluan)
+* [Pendahuluan](https://github.com/abdullahfadly/FGA_DB2_Kel6#pendahuluan)
 * [1. Create Tables](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#1-create-tables#1-create-tables)
 * [2. Create Constraints](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#2-create-constraints)
 * [3. Create Views](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#3-create-views)
@@ -36,7 +36,7 @@ CREATE TABLE table_name
   ……[ ] )
 ```
 Pada ERD perusahaan ritel minimarket, terdapat 11 entitas yang saling berhubungan, sehingga dibutuhkan 11 tabel pada implementasi program. Berikut adalah gambar ERD yang akan diimplementasikan.
-![ERD image](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6/blob/main/ERD.PNG)
+![ERD image](https://github.com/abdullahfadly/FGA_DB2_Kel6/blob/main/ERD.PNG)
 
 Berikut ini merupakan kode yang digunakan untuk membuat tabel yang dibutuhkan untuk mengimplementasikan ERD di atas.
 #### Membuat tabel r_locations
