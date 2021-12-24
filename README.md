@@ -6,14 +6,14 @@
 
 #### Table of content:
 * [Pendahuluan](https://github.com/abdullahfadly/FGA_DB2_Kel6#pendahuluan)
-* [1. Create Tables](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#1-create-tables#1-create-tables)
-* [2. Create Constraints](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#2-create-constraints)
-* [3. Create Views](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#3-create-views)
-* [4. Create Sequences](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#4-create-sequences)
-* [5. Add Data to Tables](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#5-add-data-to-tables)
-* [6. Create Indexes](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#6-create-indexes)
-* [7. Create Synonyms](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#7-create-synonyms)
-* [8. Test The Database](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6#8-test-database)
+* [1. Create Tables](https://github.com/abdullahfadly/FGA_DB2_Kel6#1-create-tables#1-create-tables)
+* [2. Create Constraints](https://github.com/abdullahfadly/FGA_DB2_Kel6#2-create-constraints)
+* [3. Create Views](https://github.com/abdullahfadly/FGA_DB2_Kel6#3-create-views)
+* [4. Create Sequences](https://github.com/abdullahfadly/FGA_DB2_Kel6#4-create-sequences)
+* [5. Add Data to Tables](https://github.com/abdullahfadly/FGA_DB2_Kel6#5-add-data-to-tables)
+* [6. Create Indexes](https://github.com/abdullahfadly/FGA_DB2_Kel6#6-create-indexes)
+* [7. Create Synonyms](https://github.com/abdullahfadly/FGA_DB2_Kel6#7-create-synonyms)
+* [8. Test The Database](https://github.com/abdullahfadly/FGA_DB2_Kel6#8-test-database)
 
 ## Pendahuluan
 Bagi perusahaan atau organisasi, keberadaan database (basis data) memiliki fungsi dan peran penting dalam mendukung proses bisnis agar lebih efektif dan efisien. Sebab, database merupakan salah satu komponen utama dalam sistem informasi, yang merupakan dasar dalam menyediakan suatu informasi bagi para pemakai (user).
@@ -339,7 +339,7 @@ CREATE [OR REPLACE] [FORCE|NOFORCE] VIEW view_name [(alias[,alias...])] AS subqu
 ```
 
 Berikut adalah salah satu contoh penggunaan view. View di bawah ini digunakan untuk menampilkan nama toko, daftar produk, stok, tanggal kedaluarsa, dan supplier produk-produk yang stoknya tinggal sedikit atau produk yang akan segera kedaluarsa.
-![Image of view-1](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6/blob/main/view-1.png)
+![Image of view-1](https://github.com/abdullahfadly/FGA_DB2_Kel6/blob/main/view-1.png)
 ```sql
 CREATE OR REPLACE VIEW view_warehouse_problem
 	AS SELECT s.store_name AS "Toko", 
@@ -524,4 +524,4 @@ Test Num | Date | Test Description | Input | Expected Output | Result
 7 | 12/09/2021 | Display discount history information by using index discount_histories | select * from all_indexes where table_name = 'r_discount_histories' ; | discount history information | discount history information
 
 ### Source Code
-Seluruh script *Minimarket database* untuk ORACLE database tersedia [di sini](https://github.com/hendrikaang/FGA2021-UI-Database2-Kel6/blob/main/DPproject.sql)
+Seluruh script *Minimarket database* untuk ORACLE database tersedia [di sini](https://github.com/hendrikaang/abdullahfadly/FGA_DB2_Kel6/blob/main/DPproject.sql)
