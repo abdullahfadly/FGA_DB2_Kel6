@@ -1,4 +1,4 @@
-# Minimarket ORACLE Database
+# Minimarket Database using SQL
 #### Disusun oleh FGA2021-UI-Database2-Kel6:
 - Abdullah Fadly
 - Hendrika Anggriawan
